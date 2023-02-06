@@ -21,12 +21,20 @@ main{
 }
 
 section#telefone{
+    position: absolute;
     height: 627px;
     width: 315px;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
+}
+
+iframe#redes{
+    position: relative;
+    top: 12.9%;
+    left: 7.1%;
+    width: 267px;
+    height: 472px;
 }
